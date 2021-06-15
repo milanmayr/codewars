@@ -1,0 +1,5 @@
+def song_decoder(song):
+    song.replace("WUB", ' ')
+    return song
+
+print(song_decoder("AWUBBWUBC"))
